@@ -17,6 +17,8 @@ if (cmd.env === 'production') {
 	dotenv.config({ path: path.join(__dirname, 'env', `${cmd.env}.env`) });
 }
 
+// added a comment
+
 const port   = process.env.PORT;
 const models = require('./models');
 const routes = require('./routes');
